@@ -7,7 +7,7 @@ namespace SAD
     /// </summary>
     public class SafeAreaDetector : MonoBehaviour
     {
-        [Header("Safe Area Y-Offset")]
+        [Header("Y-Offset from Top")]
         public float _maxYAnchorOffset = 0.02f; // Maximum Y offset adjustment for devices with notches
 
         private RectTransform _rectTransform; // Cached RectTransform of the UI element
